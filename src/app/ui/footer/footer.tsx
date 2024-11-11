@@ -72,7 +72,7 @@ const Footer = () => {
 
       <aside className='flex text-center items-center justify-between textsFont pb-4 w-maxW max-w-hd grande:max-w-grande mt-1'>
         <p className='titlesFont '>Bocarra Circus &copy; 2024</p>
-        <a className='titlesFont text-xs' href="https://github.com/VictorBelotto" target="_blank" rel="noopener noreferrer">designed by <i className='underline'>Victor Belotto</i></a>
+        <a className='titlesFont text-xs' href="https://github.com/VictorBelotto" target="_blank" rel="noopener noreferrer">designed by <i className='underline '>Victor Belotto</i></a>
       </aside>
 
     </footer>

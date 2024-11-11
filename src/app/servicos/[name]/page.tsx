@@ -4,7 +4,9 @@ import { dataServicos } from './data';
 
 export async function generateMetadata({ params }: ParamsProps): Promise<Metadata> {
   const { name } = params;
+  
   const service = dataServicos.find((s) => s.id === name)
+
   const title = service?.titulo || 'Nossos Serviços'
   const description = service?.descricao || 'Bocarra Circus é uma empresa especializada em coberturas têxteis para eventos, com foco na inovação e na qualidade.'
 
