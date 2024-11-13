@@ -36,7 +36,7 @@ const Servicos = () => {
         className="flex w-full flex-wrap overflow-hidden justify-center min-h-[100px]"
       >
         {cardData.map((card, index) => (
-          <motion.div key={index} variants={item} className={`overflow-hidden sm:max-h-[650px] lg:h-fit ${card.width}  lg:w-[20%] `}>
+          <motion.div key={index} variants={item} className={`overflow-hidden sm:max-h-[650px] xl:h-fit ${card.width}  xl:w-[20%] `}>
             <CardServicos
               img={card.img}
               title={card.title}

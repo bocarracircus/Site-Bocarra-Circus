@@ -35,12 +35,12 @@ const CardServicos = ({ img, title, description, to } : CardProps) => {
         viewport={{ once: true, amount: 0.2 }}
       >
         <motion.div
-          className={clsx('w-full overflow-hidden lg:max-h-none', (to === '/servicos/circo')? 'aspect-[9:16] max-h-[350px]' : 'aspect-[4/3] max-h-[250px]')}
+          className={clsx('w-full overflow-hidden xl:max-h-none', (to === '/servicos/circo')? 'aspect-[16/9] xl:aspect-[4/3] max-h-[450px]' : 'aspect-[4/3] max-h-[300px]')}
           variants={item}
      
         >
           <Image
-            className={clsx('w-full h-full transform transition duration-300 group-hover:scale-110 aspect-[4/3] ',(to === '/servicos/circo') ? 'aspect-[9:16] max-h-[350px]' : 'aspect-[4/3] max-h-[250px]' ) }
+            className={clsx('w-full h-full transform transition duration-300 group-hover:scale-110 aspect-[4/3] ',(to === '/servicos/circo') ? 'aspect-[16/9] xl:aspect-[4/3] max-h-[450px]' : 'aspect-[4/3] max-h-[300px]' ) }
             src={img}
             alt={`Imagem ${title}`}
             width={1280}
@@ -48,9 +48,9 @@ const CardServicos = ({ img, title, description, to } : CardProps) => {
           />
         </motion.div>
 
-        <motion.div className={clsx('flex flex-col  lg:h-[280px] mb-8', (to === '/servicos/circo') ? 'h-[180px]' : 'h-[230px]')} variants={item}>
+        <motion.div className={clsx('flex flex-col  xl:h-[280px] mb-8', (to === '/servicos/circo') ? 'h-[180px]' : 'h-[230px]')} variants={item}>
           <h4 className='text-[white] mt-6 mb-2'>{title}</h4>
-          <p className='pr-2 lg:pr-11 text-white-contraste text'>{description}</p>
+          <p className='pr-2 lg:pr-11 text-white-contraste'>{description}</p>
           <Image className='w-11 justify-self-end mt-auto transition-transform duration-300 ease-in-out transform group-hover:translate-x-5' src='/icons/arrowRed.svg' alt='Arrow' width={44} height={28}/>
         </motion.div>
       </motion.div>
