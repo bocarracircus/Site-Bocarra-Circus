@@ -233,4 +233,36 @@ h5{
   }
 }
 
+.nav-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-item {
+  position: relative;
+  padding: 4px 8px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Sombra escura suave */
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  transform: scaleX(0); 
+  transform-origin: left; 
+  transition: transform 0.3s ease; 
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1); 
+}
+
 

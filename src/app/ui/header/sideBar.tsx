@@ -15,6 +15,7 @@ const SideBar = () => {
   const [isScrollEnabled, setIsScrollEnabled] = useState(true);
   const location = usePathname();
 
+
   const item = {
     hidden: { x: "100vw", transition: { duration: 0.3, ease: "linear" } },
     visible: { x: 0, transition: { duration: 0.3, ease: "easeOut" } },
@@ -64,8 +65,8 @@ const SideBar = () => {
             </div>
             <div className="p-0 flex flex-col h-fit  gap-4 mt-4">
               <Links onClick={toggleMenu} to="/" label="Home" local={location} />
-              <Links onClick={toggleMenu} to="servicos" label="Serviços" local={location} />
-              <Links onClick={toggleMenu} to="contato" label="Contato" local={location} />
+              <Links onClick={toggleMenu} to="/servicos" label="Serviços" local={location} />
+              <Links onClick={toggleMenu} to="/contato" label="Contato" local={location} />
             </div>
             <div className="mt-auto flex justify-center">
               <Link href="/" onClick={toggleMenu} className="flex w-full justify-end">

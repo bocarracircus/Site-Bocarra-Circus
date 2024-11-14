@@ -41,7 +41,7 @@ const Gallery = ({ section } : {section : SectionProps} ) => {
           className="flex w-[calc((100%/2)-8px)] md:w-[calc((100%/3)-12px)] lg:w-[calc((100%/4)-12px)] overflow-hidden"
         >
           <Image
-            className='h-[130px] md:h-[200px] w-full cursor-pointer object-cover lg:hover:scale-105 lg:hover:brightness-50  transition duration-300'
+            className='h-[130px] md:h-[200px] w-full cursor-pointer object-cover xl:hover:scale-105 xl:hover:brightness-50  transition duration-300'
             src={src}
             alt={`Imagem ${index + 1}`}
             width={900}

@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bocarracircus.com
+
+# Sitemaps
+Sitemap: https://bocarracircus.com/sitemap.xml
+Sitemap: https://bocarracircus.com/server-sitemap-index.xml
