@@ -33,7 +33,7 @@ const Nav = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.35 }}
     >
-      <ul className='flex gap-4 items-center font-semibold rounded-lg pl-4 text-[white] overflow-hidden'>
+      <ul className='flex gap-4 items-center font-semibold rounded-lg pl-4 text-[white] overflow-hidden '>
         <li>
           <motion.div variants={item}>
             <Link href='/' className='nav-item text-xl'>

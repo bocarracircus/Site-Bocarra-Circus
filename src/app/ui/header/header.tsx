@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <div className='relative w-screen'>
-      <div className={`w-full z-20 bg-transparent absolute bg-blue-300 top-0`}>
+      <div className={`w-full z-40 bg-transparent absolute bg-blue-300 top-0`}>
         <motion.header
           className={`flex w-full justify-center `}
           initial="visible"

@@ -16,13 +16,7 @@ const Logo = () => {
           >
 
           </motion.div>
-          <Image
-            className='w-44 md:w-48 ml-2'
-            src='/bocarra_visual/escritaBranca.svg'
-            alt="Bocarra Circus Escrita"
-            width={198}
-            height={80}
-          />
+        
         </div>
       </motion.div>
     </Link>

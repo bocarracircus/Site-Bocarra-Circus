@@ -29,7 +29,7 @@ const Origem = () => {
       variants={container}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: true, amount: 0.5 }}
     >
       <Titulo titulo={'Origem Circense'} subtitulo={'Desde 1960'} variant={'red'} />
 

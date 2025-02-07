@@ -6,7 +6,7 @@ import { SiGmail } from 'react-icons/si';
 import Image from 'next/image';
 
 const Footer = () => {
-  const apiWhatsapp = "https://api.whatsapp.com/send?phone=5519989884254&text=Ol%C3%A1%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+  const apiWhatsapp = "https://api.whatsapp.com/send?phone=5519996924744&text=Ol%C3%A1%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
   return (
     <footer className='flex flex-col w-full justify-center items-center bg-red-default text-[white]'>
       <section className='flex justify-between p-5 md:p-8 w-maxW max-w-hd grande:max-w-grande bg-blue-default rounded-lg relative top-[-64px] mb-[-64px]'>
@@ -22,10 +22,10 @@ const Footer = () => {
               <hr className='w-12' />
               <div className='hidden flex-col gap-4 w-96 md:flex'>
                 <p className="flex items-center gap-2 mb-1 text-white-contraste">
-                  <SiGmail className='text-[white]' /> contato@bocarracircus.com
+                  <SiGmail className='text-[white]' /> contato@bocarracircus.com.br
                 </p>
                 <a href={apiWhatsapp} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white-contraste">
-                  <FaWhatsapp className='text-[white]' />(19) 98988-4254
+                  <FaWhatsapp className='text-[white]' />(19) 99692-4744
                 </a>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
       </section>
 
       <aside className='flex text-center items-center justify-between textsFont pb-4 w-maxW max-w-hd grande:max-w-grande mt-1'>
-        <p className='titlesFont '>Bocarra Circus &copy; 2024</p>
+        <p className='titlesFont '>Bocarra Circus &copy; 2025</p>
         <a className='titlesFont text-xs' href="https://github.com/VictorBelotto" target="_blank" rel="noopener noreferrer">designed by <i className='underline '>Victor Belotto</i></a>
       </aside>
 
